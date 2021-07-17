@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: 735f1735c8ca74012910e8f1105da747
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - VRPipeline: {fileID: 11400000, guid: 19ba41d7c0026c3459d37c2fe90c55a0, type: 2}
+  - ARPipeline: {fileID: 11400000, guid: 1a87705c05fbd4b04b7a9ffc768c4d8e, type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
