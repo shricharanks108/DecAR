@@ -14,13 +14,13 @@ public class RoomManager : MonoBehaviour
     public Slider B;
     public Slider A; 
 
-    // Start is called before the first frame update
+    public GameObject inventory;
+
     void Start()
     {
         RefreshColorPicker();
     }
 
-    // Update is called once per frame
     void Update()
     {
         if (Input.touchCount > 0 && Input.touches[0].phase == TouchPhase.Began)
@@ -111,4 +111,18 @@ public class RoomManager : MonoBehaviour
             ShowColorPicker();
         }
     }
+
+    public void InventoryToggle()
+    {
+        if (inventory.activeInHierarchy)
+        {
+            
+            inventory.SetActive(false);
+        }
+        else
+        {
+            inventory.SetActive(true);
+        }
+    }
+
 }

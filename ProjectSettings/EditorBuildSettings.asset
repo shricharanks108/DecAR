@@ -15,6 +15,6 @@ EditorBuildSettings:
     path: Assets/Scenes/BasicVRScene.unity
     guid: dea8a4933336d4313baba63f16cc9a00
   m_configObjects:
-    UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: be273753a713e2e4682077bc33786d31, type: 2}
+    UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: 0995b5b30fbd74dfa90563fbd96198ed, type: 2}
     UnityEditor.XR.ARKit.ARKitSettings: {fileID: 11400000, guid: 4bdf78b89061ef248aa723556268439f, type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 64d41c69c894a9a4e9010ae43d51f0fd, type: 2}
